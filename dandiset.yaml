@@ -49,9 +49,23 @@ citation: Capek, Matthew (2025) Comparative anatomy of thermosensory projection 
 contributor:
 - affiliation: []
   email: matthewcapek2026@u.northwestern.edu
+  identifier: 0000-0002-5740-4079
   includeInCitation: true
   name: Capek, Matthew
   roleName:
+  - dcite:ContactPerson
+  - dcite:DataCollector
+  - dcite:DataManager
+  - dcite:ProjectLeader
+  schemaKey: Person
+- email: marco@northwestern.edu
+  identifier: 0000-0003-2132-0639
+  name: Gallio, Marco
+  roleName:
+  - dcite:Author
+  - dcite:Supervision
+  - dcite:Sponsor
+  - dcite:ProjectLeader
   - dcite:ContactPerson
   schemaKey: Person
 - awardNumber: R01NS086859
@@ -85,6 +99,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-09-17T15:36:21.029992+00:00'
+datePublished: '2025-09-17T22:06:20.742228+00:00'
 description: 'Comparative neuron morphology dataset of thermosensory projection neurons
   (TPNs) from 2-photon microscopy data of dextran dye-filled neurons from Drosophila
   melanogaster, D. mojavensis, D. persimilis, and D. mettleri brains. In this project,
@@ -112,6 +127,18 @@ manifestLocation:
 name: Comparative anatomy of thermosensory projection neurons in Drosophila species
 protocol:
 - https://www.nature.com/articles/s41586-025-08682-z
+publishedBy:
+  endDate: '2025-09-17T22:06:20.742228+00:00'
+  id: urn:uuid:b1f1eaf6-18f3-4ec4-97cf-70a61f5da55f
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-09-17T22:06:20.742228+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:94fbc491-39d1-4f0b-b7df-a347242604be
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
