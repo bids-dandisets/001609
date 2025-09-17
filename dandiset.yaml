@@ -48,10 +48,17 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001609/versions/draft/assets/
 name: Evolution of temperature preference behavior in flies of the genus Drosophila
+protocol:
+- https://www.nature.com/articles/s41586-025-08682-z
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
+studyTarget:
+- Evolution
+- Sensory Processing
+- Behavior
+- Neural Circuits
 url: https://dandiarchive.org/dandiset/001609/draft
 version: draft
 wasGeneratedBy: []
