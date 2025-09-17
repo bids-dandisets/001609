@@ -20,9 +20,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 2057859168
-  numberOfFiles: 20
-  numberOfSubjects: 20
+  numberOfBytes: 4774317955
+  numberOfFiles: 46
+  numberOfSubjects: 46
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7234
@@ -30,6 +30,15 @@ assetsSummary:
     schemaKey: SpeciesType
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_377586
     name: Drosophila mojavensis mojavensis
+    schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7228
+    name: Drosophila mettleri
+    schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7227
+    name: Drosophila melanogaster - Fruit fly
+    schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_943926
+    name: Drosophila mojavensis wrigleyi - Drosophila mojavensis ssp. 'wrigleyi'
     schemaKey: SpeciesType
   variableMeasured:
   - TwoPhotonSeries
@@ -51,13 +60,12 @@ description: 'Comparative neuron morphology dataset of thermosensory projection 
   melanogaster, D. mojavensis, D. persimilis, and D. mettleri brains. In this project,
   we labelled the TPNs in the brain that relay heat information from the periphery
   (antennae) to the central brain (lateral horn and calyx of the mushroom body) through
-  dextran dye filling, in order to understand how their pattern of innervation may
-  have contributed to the evolution of different responses to heat across species,
-  during the adaptation to different thermal environments. Included in this dataset
-  are 10 z-stack images of the labelled projection neuron called TPN-V (which is the
-  main TPN for innocuous heat) per species, with five acquired in the "Front view"
-  and five in the "Top view", respectively. See Capek, et al. (2025) for more details:
-  https://www.nature.com/articles/s41586-025-08682-z.'
+  dextran dye filling. Included in this dataset are the following: 10 z-stack images
+  of the labelled projection neuron called TPN-V (which is the main TPN for innocuous
+  heat) per species, with five acquired in the "Front view" and five in the "Top view",
+  respectively; Front and Top view fills of TPN-V for an additional population strain
+  of each species; and representative fills of other TPN cell types (1a, 1b, and 6)
+  labelled in D. mojavensis. See Capek, et al. (2025) for more details: https://www.nature.com/articles/s41586-025-08682-z.'
 ethicsApproval: []
 id: DANDI:001609/draft
 identifier: DANDI:001609
