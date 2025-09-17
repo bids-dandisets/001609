@@ -8,11 +8,35 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 2057859168
+  numberOfFiles: 20
+  numberOfSubjects: 20
   schemaKey: AssetsSummary
-citation: Capek, Matthew (2025) Evolution of temperature preference behavior in flies
-  of the genus Drosophila (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001609/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7234
+    name: Drosophila persimilis
+    schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_377586
+    name: Drosophila mojavensis mojavensis
+    schemaKey: SpeciesType
+  variableMeasured:
+  - TwoPhotonSeries
+  - OpticalChannel
+  - ImagingPlane
+citation: Capek, Matthew (2025) Comparative anatomy of thermosensory projection neurons
+  in Drosophila species (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001609/draft
 contributor:
 - affiliation: []
   email: matthewcapek2026@u.northwestern.edu
@@ -47,7 +71,7 @@ license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001609/versions/draft/assets/
-name: Evolution of temperature preference behavior in flies of the genus Drosophila
+name: Comparative anatomy of thermosensory projection neurons in Drosophila species
 protocol:
 - https://www.nature.com/articles/s41586-025-08682-z
 relatedResource: []
