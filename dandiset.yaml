@@ -23,16 +23,17 @@ contributor:
   schemaKey: Person
 dateCreated: '2025-09-17T15:36:21.029992+00:00'
 description: 'Comparative neuron morphology dataset of thermosensory projection neurons
-  (TPNs) reconstructed from 2-photon microscopy data from Drosophila melanogaster,
-  D. mojavensis, D. persimilis, and D. mettleri. In this project, we labelled the
-  TPNs in the brain that relay heat information from the periphery (antennae) to the
-  central brain (lateral horn and calyx of the mushroom body) through dextran dye
-  filling, in order to understand how their pattern of innervation may have contributed
-  to the evolution of different responses to heat across species, during the adaptation
-  to different thermal environments. Included in this data set are 5 reconstructions
-  of the projection neuron called TPN-V (which is the main TPN for innocuous heat)
-  for each species and for the lateral horn and calyx, respectively. See Capek, et
-  al. (2025) for more details: https://www.nature.com/articles/s41586-025-08682-z.'
+  (TPNs) from 2-photon microscopy data of dextran dye-filled neurons from Drosophila
+  melanogaster, D. mojavensis, D. persimilis, and D. mettleri brains. In this project,
+  we labelled the TPNs in the brain that relay heat information from the periphery
+  (antennae) to the central brain (lateral horn and calyx of the mushroom body) through
+  dextran dye filling, in order to understand how their pattern of innervation may
+  have contributed to the evolution of different responses to heat across species,
+  during the adaptation to different thermal environments. Included in this dataset
+  are 10 z-stack images of the labelled projection neuron called TPN-V (which is the
+  main TPN for innocuous heat) per species, with five acquired in the "Front view"
+  and five in the "Top view", respectively. See Capek, et al. (2025) for more details:
+  https://www.nature.com/articles/s41586-025-08682-z.'
 ethicsApproval: []
 id: DANDI:001609/draft
 identifier: DANDI:001609
